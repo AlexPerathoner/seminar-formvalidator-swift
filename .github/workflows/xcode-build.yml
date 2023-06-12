@@ -29,7 +29,7 @@ jobs:
         id: run-tests
         run: |
           xcodebuild clean test \
-          -workspace FormValidatorSwift.workspace \
+          -workspace FormValidatorSwift.xcworkspace \
           -scheme UITests \
           -destination platform=macOS \
           -resultBundlePath TestResults \
